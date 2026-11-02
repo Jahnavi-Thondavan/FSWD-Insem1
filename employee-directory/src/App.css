@@ -1,0 +1,57 @@
+.container {
+text-align: center;
+font-family: Arial, sans-serif;
+padding: 25px;
+background-color: #f1f5f9;
+min-height: 100vh;
+}
+
+.container h1 {
+color: #163a63;
+margin-bottom: 35px;
+}
+
+.employee-list {
+display: flex;
+justify-content: center;
+gap: 25px;
+flex-wrap: wrap;
+}
+
+.employee-card {
+width: 230px;
+padding: 22px;
+border: 1px solid #d6e0eb;
+border-radius: 12px;
+background-color: #ffffff;
+box-shadow: 0 4px 12px rgba(22, 58, 99, 0.12);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.employee-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 18px rgba(22, 58, 99, 0.2);
+}
+
+.employee-photo {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #2563a6;
+}
+
+.employee-card h2 {
+color: #163a63;
+margin-bottom: 15px;
+}
+
+.employee-card p {
+color: #526477;
+font-size: 14px;
+margin: 10px 0;
+}
+
+.employee-card p:hover {
+color: #2563a6;
+}
